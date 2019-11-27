@@ -35,7 +35,7 @@ public class Main {
                 amountOfTries++;
             }
 
-            if(amountOfTries==amountOfYes && serverB<=servers){
+            if(amountOfTries==amountOfYes && serverB<=servers && serverA <=servers){
                 System.out.println(1);
             } else {
                 System.out.println(0);
