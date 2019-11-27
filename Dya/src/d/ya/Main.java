@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("Введите 3 числа (кол-во чанков, серверов, запросы) :");
         int chanks = in.nextInt();
-        int servers = in.nextInt();
+//        int servers = in.nextInt();
         int requests = in.nextInt();
 
         System.out.println("расположение чанков на серверах :" );
